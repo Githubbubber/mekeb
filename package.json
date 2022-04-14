@@ -1,0 +1,21 @@
+{
+  "name": "mekeb",
+  "version": "1.0.0",
+  "description": "Start",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.heroku.com/mekeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://mekeb.herokuapp.com/",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
