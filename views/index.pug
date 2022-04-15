@@ -1,17 +1,200 @@
+doctype html
 html(lang="en")
   head
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
-    title= title
+    title Mekesia
     link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous")
+    link(rel="shortcut icon" type="image/png" href="images/favicon.ico")
+    style
+      include css/styling.css
     
   body
-    h1= message
+    // Large image of me and Lance
 
-    hr
+    br/ 
+    // White cup and name
 
+    br/ 
+    // Top three text sections
+    section
+      div(class="container mt-2")
+        div(class="row")
+          div(class="col-md-4 col-12")
+            ul(class="list-unstyled")
+              li(class="media")
+                img(class="mr-3 pixelPlace" id="frontEndDev" src="images/pixel.png" alt="Generic placeholder image")
+                div(class="media-body")
+                  h5(class="mt-0 mb-1") Front-End Web Developer
+                  I have ever-expanding skills in building interactive user experiences. 
+                  br/
+                  br/
+                  Occasionally I like to fool around and mess things up in the Inspect window.
+          
+          div(class="col-md-4 col-12")
+            ul(class="list-unstyled")
+              li(class="media")
+                img(class="mr-3 pixelPlace" id="podProducer" src="images/pixel.png" alt="Generic placeholder image")
+                div(class="media-body")
+                  h5(class="mt-0 mb-1") Podcast Producer
+                  I eat, breathe, and LIVE Adobe products for my work around podcasts. I can't help it. Adobe CC is a must-have for Creatives overall. 
+                  br/
+                  br/ 
+                  Supporting new media talents and content creators is a joy of mine.
+          
+          div(class="col-md-4 col-12")
+            ul(class="list-unstyled")
+              li(class="media")
+                img(class="mr-3 pixelPlace" id="foodServer" src="images/pixel.png" alt="Generic placeholder image")
+                div(class="media-body")
+                  h5(class="mt-0 mb-1") Director, New Media Content
+                  Yup. I work side gigs in this area. NOT something I take lightly though! 
+                  br/
+                  br/
+                  I look forward to working with more and more amazing people!
+
+    // Bottom three text sections
+    section
+      div(class="container mt-2")
+        div(class="row")
+          div(class="col-md-4 col-12")
+            ul(class="list-unstyled")
+              li(class="media")
+                img(class="mr-3 pixelPlace" id="backEndDev" src="images/pixel.png" alt="Generic placeholder image")
+                div(class="media-body")
+                  h5(class="mt-0 mb-1") Back-End Web Developer
+                  
+                  My preferred server-side programming languages are Node JS for a mainly front-end website, Ruby, and PHP.
+                  br/
+                  br/
+                  Anyone remember the NuSphere IDE? I miss that thing. So expensive though...
+          div(class="col-md-4 col-12")
+            ul(class="list-unstyled")
+              li(class="media")
+                img(class="mr-3 pixelPlace" id="vidProducer" src="images/pixel.png" alt="Generic placeholder image")
+                div(class="media-body")
+                  h5(class="mt-0 mb-1") Video Producer With certifications that I earned from BRIC Arts Media studios in Downtown Brooklyn I've worked on amazing projects in film and TV. It was a pleasure working with visionary minds, and I look forward to doing it again and again.
+          div(class="col-md-4 col-12")
+            ul(class="list-unstyled")
+              li(class="media")
+                img(class="mr-3" id="meke" src="images/me.png" alt="Generic placeholder image")
+                div(class="media-body")
+                  h5(class="mt-0 mb-1") Contact Me For
+                  div(class="text-center")
+                    button(class="btn btn-info" data-toggle="modal" data-target="#reachme") Video projects 
+                    &nbsp; 
+                    button(class="btn btn-info" data-toggle="modal" data-target="#reachme") Nerding out
+                  p My mission in life is to connect creative people together. This can be us working together, me connecting you with others, you connecting ME with others, us getting OTHERS together, a combo of the above...
+
+    // Pink section w/ formal pic
+    section(id="pinky")
+      div(class="container")
+        div(class="row text-center")
+          div(class="col-6 pt-5")
+            h2 Accolades
+            strong Second place, Illicit Mind Hackathon
+            br/
+            strong Recipient, Opportunity Fund Scholarship, General Assembly
+            small (Ask me for details!)
+            br/
+            iframe(class="mobileHidden pt-5 pb-5" src="https://www.youtube.com/embed/tF8EAlxWkLw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen)
+            a(class="showHidden" href="https://www.youtube.com/watch?v=tF8EAlxWkLw") My OLD inspirational video
+
+          div(class="col-6")
+            img(src="images/pixel.png" alt="" id="prettyMeke")
+
+    // Portfolio
+    section(class="mt-3 mb-3")
+      div(class="container mt-3 mb-3")
+        div(class="row")
+          div(class="col-12")
+            h4 Video Productions
+        div(class="row")
+          div(class="col-12 text-right")
+            p You will enjoy having conversations with me, I guarantee it. BUT chances are you are curious about my work experience and are just here to browse. WELL! Let me give you a taste of my most recent projects, multimedia and web dev-related.
+        div(class="row")
+          div(class="col-12 text-center" id="resize")
+            a(href="https://www.youtube.com/watch?v=KoOv-G6SFOw&t=4s")
+              img(class="img-fluid" src="images/production/danceparade.jpg" alt="The 2018 NYC Dance Parade")
+            a(href="https://www.youtube.com/watch?v=bnCsqCM93Lg")
+              img(class="img-fluid" src="images/production/commercial.jpg" alt="A commercial")
+            a(href="https://www.youtube.com/watch?v=oPUGN5z0JUw")
+              img(class="img-fluid" src="images/production/lbrs.jpg" alt="LBR Sports Podcast interview")
+            a(href="https://www.youtube.com/watch?v=mIMiUS7Slm4&t=418s")
+              img(class="img-fluid" src="images/production/mb2.jpg" alt="Rebel Hooks performance")
+            a(href="https://www.youtube.com/watch?v=sG3ZWgbR7Rk")
+              img(class="img-fluid" src="images/production/pnc2.jpg" alt="The Pondering Nerdcast")
+            a(href="https://www.youtube.com/watch?v=4VcP356EoI0&t=353s")
+              img(class="img-fluid" src="images/production/mws2.jpg" alt="Made with STEAM podcast")
+
+    br/
+
+    // Blue section w/ code
+    section(id="blueBell")
+      div(class="container")
+        div(class="row text-center")
+          div(class="col-6")
+            img(src="images/code.jpg" alt="" id="aCoder")
+          div(class="col-6 pt-2")
+            h2 Occasional teaching gigs
+            strong Harlem Business Alliance
+            br/
+            strong Black Girls CODE
+            br/
+            strong Freelance beginners coding, one on one
+            small (ask for details!) 
+            br/
+            a(href="#" data-toggle="modal" data-target="#exampleModal")
+              img(class="pt-3" id="sizer" src="images/both.jpg" alt="teaching" data-toggle="modal" data-target="#exampleModal")
+
+          div(class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+            div(class="modal-dialog" role="document")
+              div(class="modal-content")
+                div(class="modal-body")
+                  img(class="blueBell" src="images/teaching/bgc.jpg" alt="Black Girls CODE")
+                  img(class="pt-3 blueBell" src="images/teaching/bcc.jpg" alt="Blerd City Conference")
+                div(class="modal-footer")
+                  button(type="button" class="btn btn-secondary" data-dismiss="modal") Close
+
+    // Bottom text and links
     footer(class="mt-2") 
       section
+        div(class="container text-left")
+          div(class="row")
+            div(class="col")
+              h6 Gifted Sounds Network
+              ul
+                li: a(href="http://www.giftedsounds.com/about-us/") About GSN
+                li: a(href="http://www.giftedsounds.com/news") GSN in the world
+                li: a(href="http://www.giftedsounds.com/studios/") Gifted Sounds Studios
+                li: a(href="http://www.giftedsounds.com/contact") Contact GSN
+
+            div(class="col")
+              h6 Grand Kru Technologies
+              ul(class="text-left")
+                li: a(href="http://www.grandkru.com/") GKT
+                li: a(href="http://www.mnyon.com/") Dev Musings
+                li: a(href="https://ebwiki.org/") End Bias Wiki
+                li: a(href="https://plus.google.com/+MarkNyonMellow") Contact Mark Nyon
+
+            div(class="col")
+              h6 Helpful resources
+              ul
+                li: a(href="https://drive.google.com/open?id=1kOIbWQwQTi7ljhLi8kAAtcdcUc0coniOmw0XOEuPvPI") Programming
+                li: a(href="http://www.giftedsounds.com/contact") Production
+                li: a(href="https://www.wikipedia.org/") LGBTQIA+
+                li: a(href="http://www.giftedsounds.com/made-with-steam/2018/3/10/other-great-shows") Children's entertainment
+
+            div(class="col text-center" id="btns")
+              a(class="btn btn-info" href="#" data-toggle="modal" data-target="#reachme") Email
+              br/
+              br/
+              a(class="btn btn-info" href="https://www.youtube.com/watch?v=LAwDWZoETk4") The Meaning of Life?
+              br/
+              br/
+              a(class="btn btn-info" href="https://www.eeoc.gov/eeoc/publications/fs-epa.cfm") Where to next?
+
+      // Copyright and social media
       section(class="mt-5 mb-2"): div(class="container"): div(class="row")
         div(class="col-6 text-left")
           small 2021 - 2031 &copy;Copyright (over myself?) Mekesia Brown. All rights reserved.
@@ -23,9 +206,16 @@ html(lang="en")
           a(href="https://github.com/Githubbubber")
             img(id="github" src="images/pixel.png" alt="")
     
-    hr
-
     button(id="backToTop"): a(href="#topperz") Top
+
+    div(class="modal fade" id="reachme" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
+      div(class="modal-dialog" role="document")
+        div(class="modal-content")
+          div(class="modal-body")
+            p mekesiabrown @ gmail dot com
+
+          div(class="modal-footer")
+            button(type="button" class="btn btn-secondary" data-dismiss="modal") Close
 
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous")
