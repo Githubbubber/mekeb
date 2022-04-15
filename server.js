@@ -11,6 +11,10 @@ app.get("/", (req, res) => {
   res.render('index', { title: 'Mekesia Brown', message: 'Hello there!' });
 });
 
+app.get("/affirm", (req, res) => {
+  res.render('affirmations');
+});
+
 app.listen(process.env.PORT || 3001, () => {
   console.log("===Server running on port 3001===");
 });
