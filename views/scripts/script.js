@@ -4,6 +4,7 @@ const affirmationContents = [
     "Don't give up you can make it good",
     "Your people were wanted for all for your gifts",
     "Your lands are better",
+    "Do you remember how others pay attention to you and you just keep walking? Just keep walking.",
     "Your are the Black gold of the sun",
     "When you rest you fight for what is right",
     "Your heart is tired and your mother's heart is tired and your grandmother's heart is tired",
@@ -18,11 +19,16 @@ const affirmationContents = [
     "You belong here",
     "You are loved",
     "You are important",
+    "Recycling is your passion. The planet needs YOU",
     "You are okay",
     "You are just fine",
     "You have this new moment for an exciting end",
     "You were never the only one in this state",
-    "When you get up the next person will have hope"
+    "When you get up the next person will have hope",
+    "Your power is unlimited, Mickey",
+    "You will trust yourself and your skills",
+    "Everything you need to succeed is already within you",
+    "You can do anything you set your mind and heart to. Just believe in you, Mickey"
 ];
 
 const affirmationLineCount = affirmationContents.length;
