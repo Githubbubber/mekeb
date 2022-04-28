@@ -8,6 +8,8 @@ html(lang="en")
     link(rel="shortcut icon" type="image/png" href="/images/favicon.ico")
     style
       include css/styling.css
+    style
+      include css/quotes.css
     
   body
     // Large image of me and Lance
@@ -25,20 +27,17 @@ html(lang="en")
 
             div(class="row")
               div(class="col-7 text-right" id="jumboQuotes")
-                blockquote(id="q1")
+                blockquote(id="quoteOne")
                   p &quot;In the two years I have had the pleasure of working with Meke, I'm seen her not only excel at the core elements of her job, but she also had also demonstrated an unparalleled dedication to and skill in programming.&quot;
-                blockquote(id="q2" class="q")
+                blockquote(id="quoteTwo")
                   p &quot;She helped her team perform without fail. Her role required in depth knowledge of After Effects, Photoshop, Flash, Perforce, and a slew of proprietary technology. She managed to ice the cake by learning Python at the same time. I look forward to working with Meke again in the future!&quot;
-                blockquote(id="q3" class="q")
+                blockquote(id="quoteThree")
                   p &quot;Mekesia is a very driven, curious, and hard-working person who is passionate about web development. She'll be a great asset to any team!&quot;
-                blockquote(id="q4" class="q")
+                blockquote(id="quoteFour")
                   p &quot;She's definitely the type of self-starter who will always be finding new ways to do her work better. Plus, she's a lot of fun to work with!&quot;
-                blockquote(id="q5" class="q")
+                blockquote(id="quoteFive")
                   p &quot;Mekesia is a joy to work with and I would love to work with Mekesia again. She is truly a rare talent and person you don't find often within the tech field.&quot;
     
-    br/
-    br/  
-
     // White cup and name
     section(id="bigcup")
       div(class="container")
@@ -52,9 +51,7 @@ html(lang="en")
           div(class="col-4")
           div(class="col")
             img(src="/images/cup.png" alt="")
-          div(class="col")
-
-    br/ 
+          div(class="col") 
 
     // Top three text sections
     section
@@ -66,10 +63,10 @@ html(lang="en")
                 img(class="mr-3 pixelPlace" id="frontEndDev" src="/images/pixel.png" alt="Generic placeholder image")
                 div(class="media-body")
                   h5(class="mt-0 mb-1") Front-End Web Developer
-                  I have ever-expanding skills in building interactive user experiences. 
+                  span I have ever-expanding skills in building interactive user experiences. 
                   br/
                   br/
-                  Occasionally I like to fool around and mess things up in the Inspect window.
+                  span Occasionally I like to fool around and mess things up in the Inspect window.
           
           div(class="col-md-4 col-12")
             ul(class="list-unstyled")
@@ -77,10 +74,10 @@ html(lang="en")
                 img(class="mr-3 pixelPlace" id="podProducer" src="/images/pixel.png" alt="Generic placeholder image")
                 div(class="media-body")
                   h5(class="mt-0 mb-1") Podcast Producer
-                  I eat, breathe, and LIVE Adobe products for my work around podcasts. I can't help it. Adobe CC is a must-have for Creatives overall. 
+                  span I eat, breathe, and LIVE Adobe products for my work around podcasts. I can't help it. Adobe CC is a must-have for Creatives overall. 
                   br/
                   br/ 
-                  Supporting new media talents and content creators is a joy of mine.
+                  span Supporting new media talents and content creators is a joy of mine.
           
           div(class="col-md-4 col-12")
             ul(class="list-unstyled")
@@ -101,17 +98,20 @@ html(lang="en")
                 img(class="mr-3 pixelPlace" id="backEndDev" src="/images/pixel.png" alt="Generic placeholder image")
                 div(class="media-body")
                   h5(class="mt-0 mb-1") Back-End Web Developer
-                  
-                  My preferred server-side programming languages are Node JS for a mainly front-end website, Ruby, and PHP.
+                  |
+                  span My preferred server-side programming languages are Node JS for a mainly front-end website, Ruby, and PHP.
                   br/
                   br/
-                  Anyone remember the NuSphere IDE? I miss that thing. So expensive though...
+                  |
+                  span Anyone remember the NuSphere IDE? I miss that thing. So expensive though...
           div(class="col-md-4 col-12")
             ul(class="list-unstyled")
               li(class="media")
                 img(class="mr-3 pixelPlace" id="vidProducer" src="/images/pixel.png" alt="Generic placeholder image")
                 div(class="media-body")
-                  h5(class="mt-0 mb-1") Video Producer With certifications that I earned from BRIC Arts Media studios in Downtown Brooklyn I've worked on amazing projects in film and TV. It was a pleasure working with visionary minds, and I look forward to doing it again and again.
+                  h5(class="mt-0 mb-1") Video Producer 
+                  |
+                  span With certifications that I earned from BRIC Arts Media studios in Downtown Brooklyn I've worked on amazing projects in film and TV. It was a pleasure working with visionary minds, and I look forward to doing it again and again.
           div(class="col-md-4 col-12")
             ul(class="list-unstyled")
               li(class="media")
@@ -123,6 +123,7 @@ html(lang="en")
                     |
                     |
                     button(class="btn btn-info" data-toggle="modal" data-target="#reachme") Nerding out
+                    |
                   p My mission in life is to connect creative people together. This can be us working together, me connecting you with others, you connecting ME with others, us getting OTHERS together, a combo of the above...
 
     // Pink section w/ formal pic
@@ -136,7 +137,7 @@ html(lang="en")
             strong Recipient, Opportunity Fund Scholarship, General Assembly
             small (Ask me for details!)
             br/
-            a(href="https://www.youtube.com/channel/UCUyt4nM0KJ-cyAf40EG7XcQ/videos") Head to YouTube to check out my OLD inspirational video on becoming a programmer. 
+            p(class="topSpace"): a(href="https://www.youtube.com/channel/UCUyt4nM0KJ-cyAf40EG7XcQ/videos") Head to YouTube to check out my OLD inspirational video on becoming a programmer. 
 
           div(class="col-6")
             img(src="/images/pixel.png" alt="" id="prettyMeke")
@@ -164,8 +165,6 @@ html(lang="en")
               img(class="img-fluid" src="/images/production/pnc2.jpg" alt="The Pondering Nerdcast")
             a(href="https://www.youtube.com/watch?v=4VcP356EoI0&t=353s")
               img(class="img-fluid" src="/images/production/mws2.jpg" alt="Made with STEAM podcast")
-
-    br/
 
     // Blue section w/ code
     section(id="blueBell")
@@ -244,8 +243,10 @@ html(lang="en")
           a(href="https://github.com/Githubbubber")
             img(id="github" src="/images/pixel.png" alt="")
     
+    // S/E
     button(id="backToTop"): a(href="#topperz") Top
 
+    // A small popup modal revealing my email
     div(class="modal fade" id="reachme" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true")
       div(class="modal-dialog" role="document")
         div(class="modal-content")
