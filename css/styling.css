@@ -1,0 +1,242 @@
+body  { overflow-x: hidden; }
+
+a     { text-decoration: none; }
+
+section#blueBell div.col-6.pt-2 {
+  padding:.5rem !important;
+}
+
+button#backToTop { 
+  position: fixed; 
+  bottom: 1%; 
+  right: .5%; 
+}
+
+footer div#btns a { width:100%; }
+
+li    { list-style-type: none; }
+
+section#topperz {
+  background: url('../images/onthemic.jpg') center no-repeat; 
+}
+
+section#topperz nav.navbar{
+  color:white; 
+  font-size: 2em;
+  justify-content: left; 
+}
+
+section#topperz div.text-center 
+#jumboHouse   { margin: 10% 0px; }
+
+section#pinky   { background-color:pink; }
+
+section#pinky img#prettyMeke { 
+  background-image: url('../images/formal.jpg');
+  background-repeat: no-repeat; 
+  width: 100%;     
+  height: 100%;
+}
+
+section#blueBell { background-color:lightblue; }
+
+img#aCoder    { width:104%; }
+
+div#jumboTitle.col-3.text-center { 
+  max-width: none !important;
+  background-color: rgb(146, 168, 209);  
+  margin-top: 35%;
+}
+
+#jumboQuotes
+{ 
+  margin-top: 0.5%; 
+  padding: 1%;
+  margin-bottom: 15%;
+  width: 100px;
+  height: 200px;
+}
+
+#jumboQuotes blockquote {
+  background-color: rgb(66, 66, 66); 
+  color: white; 
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  padding: 10px;
+}
+
+div#resize a img { width: 10%; margin: 0px 2%; }
+
+#sizer    { width: 55%; }
+
+#twitter, #linkedin, #github {
+  background: url('../images/social.png') no-repeat;
+  height: 24px;
+}
+
+#reachme  { margin-top: 15%; }
+
+#twitter  { background-position: 0px 0px; }
+
+#linkedin   { background-position: 0px -24px; }
+
+#github   { background-position: 0px -48px; }
+
+#frontEndDev  { background-position: 0px 0px; }
+
+#podProducer  { background-position: 0px -150px; }
+
+#foodServer   { background-position: 0px -200px; }
+
+#backEndDev   { background-position: 0px -100px; }
+
+#vidProducer  { background-position: 0px -50px; }
+
+#contactBtns  { height: 40px; }
+
+#meke { height: 50px; }
+
+.jumbotron { border-radius: 0px; }
+
+.pixelPlace {
+  background: url('../images/icons.png') no-repeat; 
+  height: 50px;
+}
+
+.topSpace { margin-top: none; }
+
+.q { display: none; }
+
+
+/* Screen sizes section */  
+@media (max-width: 330px) {
+  section#blueBell h2 {
+    font-size:1.75em;
+  }
+
+  footer.mt-2 div.col:nth-child(6) {
+    color: #4d004d;
+  }
+
+  footer.mt-2 div.col:nth-child(5) {
+    color: #000066;
+  }
+
+  footer.mt-2 div.col:nth-child(4) {
+    color: #003300;
+  }
+
+  footer.mt-2 div.col:nth-child(3) {
+    color: #e6b800;
+  }
+
+  footer.mt-2 div.col:nth-child(2) {
+    color:orange;
+  }
+
+  footer.mt-2 div.col:nth-child(1) {
+    color: #cc0000;
+  } 
+}
+
+@media (min-width:331px) and (max-width: 420px) { 
+  img#prettyMeke {
+    background-position: -420px -70px;
+  }
+
+  section#pinky div.col-6.pt-5 {
+    padding: 1rem!important;
+  }
+
+  img#aCoder {
+    width: 100%;
+    height: auto;
+    padding-top: 70%;
+  }
+
+  div#exampleModal.modal.fade.show div.modal-dialog, 
+  img.blueBell {
+    width:95%;
+  }
+
+  footer.mt-2 div.col:nth-child(5) {
+    color: #ff6600;
+  }
+
+  footer.mt-2 div.col:nth-child(4) {
+    color: #e6b800;
+  }
+
+  footer.mt-2 div.col:nth-child(3) {
+    color: #003300;
+  }
+
+  footer.mt-2 div.col:nth-child(2) {
+    color: #009900;
+  }
+
+  footer.mt-2 div.col:nth-child(1) {
+    color: #4d004d;
+  } 
+}
+
+@media (min-width: 421px) and (max-width: 829px) { 
+  img#prettyMeke {
+    background-position: -390px -50px;
+  }
+
+  footer.mt-2 div.col:nth-child(1) {
+    color:red;
+  }
+
+  footer.mt-2 div.col:nth-child(2) {
+    color: #e68a00;
+  }
+
+  footer.mt-2 div.col:nth-child(3) {
+    color: #e6b800;
+  }
+
+  footer.mt-2 div.col:nth-child(4) {
+    color: #003300;
+  }
+
+  footer.mt-2 div.col:nth-child(5) {
+    color: #000066;
+  }
+
+  footer.mt-2 div.col:nth-child(6) { 
+    color: #4d004d;
+  } 
+
+  section#pinky div.col-6.pt-5 {
+    padding: 1rem!important;
+  }
+}
+
+@media (min-width: 830px) and (max-width: 991px) { 
+  img#prettyMeke {
+    background-position: -350px -0px;
+  }
+
+  img#aCoder {
+    width: 100%;
+    height: auto;
+    padding-top: 15%;
+  } 
+}
+
+@media (min-width: 992px) and (max-width: 1499px) { 
+  img#prettyMeke {
+    background-position: -290px -20px;
+  }
+
+  button#backToTop {
+    position: fixed;
+    bottom: 5.5%;
+    right: 0;
+  } 
+
+  .topSpace { margin-top: 70px; }
+}
