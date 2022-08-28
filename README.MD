@@ -1,1 +1,1 @@
-Start
+Static personal site
